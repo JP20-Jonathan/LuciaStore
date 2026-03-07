@@ -2,21 +2,13 @@ package storeapp.main;
 
 import storeapp.domain.Customer;
 import storeapp.domain.Person;
+import storeapp.view.MenuApp;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        String mail = "clara@mail.com";
-
-        Customer customer = new Customer();
-
-        customer.createUser(customer);
-        customer.getPersonById(1,customer);
-
-
-
-
+        MenuApp.showMainMenu();
 
     }
 
